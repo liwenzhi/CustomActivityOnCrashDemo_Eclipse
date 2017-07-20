@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred.\nSorry
+        for the inconvenience.
+    </string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart app</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close app</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+
+
+    <string name="app_name">CustomActivityOnCrash sample</string>
+
+    <!-- Main activity strings -->
+    <string name="hello">请选择测试崩溃的模式</string>
+    <string name="crash_main_thread">主线程崩溃</string>
+    <string name="crash_background_thread">子线程崩溃</string>
+    <string name="crash_with_delay">5秒后崩溃</string>
+
+    <!-- These strings are only for our CUSTOM error activity, if you are using the default activity, they are not needed! -->
+    <string name="error_title">Something went wrong!</string>
+    <string name="error_occurred">An error occurred. We\'re deeply sorry.</string>
+    <string name="error_details">Error details:</string>
+    <string name="unknown_exception">Unknown exception</string>
+    <string name="restart_app">Restart app</string>
+    <string name="close_app">Close app</string>
+
+</resources>

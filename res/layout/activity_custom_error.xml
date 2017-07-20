@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+
+        >
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true"
+            android:background="@drawable/a3"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="程序崩溃了！"
+                android:layout_centerInParent="true"
+                android:id="@+id/error_details"
+                android:textSize="25sp"
+                />
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:layout_marginTop="@dimen/restart_button_margin"
+            android:orientation="horizontal"
+            >
+        <Button
+                android:id="@+id/btn_close"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="关闭程序"/>
+        <Button
+                android:id="@+id/btn_restart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="重启程序"/>
+    </LinearLayout>
+
+</LinearLayout>
